@@ -1,4 +1,4 @@
-package Service;
+package service;
 
 import com.example.streamapioptional.Employee;
 
