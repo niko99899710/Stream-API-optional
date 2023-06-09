@@ -1,4 +1,4 @@
-package Service;
+package service;
 
 import com.example.streamapioptional.Employee;
 
@@ -11,7 +11,7 @@ public interface ServiceEmployee {
      Object findDepartmentMaxSalaryEmployee (Integer department);
      Employee findDepartmentMinSalaryEmployee (Integer department, Integer salary);
 
-     Optional<Employee> findDepartmentMinSalaryEmployee(Integer department);
+     Optional<Employee>  findDepartmentMinSalaryEmployee(Integer department);
 
      Optional<List<Employee>> findDepartmentsAllEmployee (Integer department, Integer salary);
      Map <Integer, List <Employee>> getAllDepartments ();
